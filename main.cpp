@@ -208,7 +208,7 @@ void MultTest(std::ostream &stream) {
 
 
 int main() {
-    std::ostream& st = std::cout;
+    std::ofstream st("results.txt");
     DeterminantTest(st);
     SumTest(st);
     SubstrTest(st);
